@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    background-color: #EFEEE6;
+}
+
+nav {
+    padding-top: 17%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    gap: 45px;
+
+    background-color: #8A191F;
+
+    position: relative;
+}
+
+.word {
+    font-family: Didot, serif;
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #EFEEE6;
+    
+    padding-left: 26%;
+    text-align: right;
+}
+
+#nav2 {
+    padding-top: 20.17%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    gap: 45px;
+}
+
+.half {
+    font-family: Didot, serif;
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #8A191F;
+
+}
+
+a img {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 38.7%;
+}
+
+/* COPY PASTE^^^^^^^^^ */
+
+h1 {
+    font-family: Didot, serif;
+    color: #8A191F;
+    text-align: right;
+    font-size: 6em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+
+#section {
+    display: flex;
+    width: 100%;
+}
+
+#pic {
+    width: 35%;
+}
+
+#text {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3 {
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+    color: #373B3B;
+}
+
+p {
+    font-family: Futura, sans-serif;
+    color: #373B3B;
+    line-height: 175%;
+}
