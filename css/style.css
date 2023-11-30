@@ -4,3 +4,61 @@
     box-sizing: border-box;
     font-size: 100%;
 }
+
+body {
+    background-color: #8A191F;
+    display: flex;
+}
+
+#title {
+    display: flex;
+    position: relative;
+    width: 85%;
+    height: auto;
+    padding: 8%;
+    padding-left: 6%;
+    padding-right: 9%;
+}
+
+nav {
+
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    position: relative;
+
+    background-color: #EFEEE6;
+}
+
+#about {
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 43.5%;
+    width: 65%;
+}
+
+#events {
+    display: flex;
+    position: relative;
+    top: 350px;
+    right: 36%;
+    width: 65%;
+}
+
+#merch {
+    display: flex;
+    position: relative;
+    top: 400px;
+    right: 40.5%;
+    width: 64%;
+}
+
+#connect {
+    display: flex;
+    position: relative;
+    top: 450px;
+    right: 42%;
+    width: 85%;
+}
