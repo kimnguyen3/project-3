@@ -20,7 +20,7 @@ nav {
     padding-left: 12%;
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 13%;
     height: 400vh;
 
     background-color: #8A191F;
@@ -36,25 +36,25 @@ a img {
 }
 
 #about {
-    top: 8%;
+    top: 9%;
     left: 57%;
     width: 65%;
 }
 
 #events {
-    top: 11%;
+    top: 12%;
     left: 64%;
     width: 65%;
 }
 
 #merch {
-    top: 14%;
+    top: 15%;
     left: 60%;
     width: 64%;
 }
 
 #connect {
-    top: 17%;
+    top: 18%;
     left: 58%;
     width: 85%;
 }
@@ -68,56 +68,118 @@ h1 {
     padding-right: 3%;
 }
 
+h3 {
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.125em;
+    font-weight: 100;
+    color: #373B3B;
+}
+
+p {
+    font-family: Futura, sans-serif;
+    color: #373B3B;
+    line-height: 175%;
+}
+
 #main {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     margin-top: 5%;
     padding-bottom: 5%;
     margin-right: 5%;
     margin-left: 10%;
     flex-wrap: wrap;
-
-    background-color: green;
+   
+    /* background-color: green; */
 }
 
+/* SCREEN 1 */
 #landing {
     display: flex;
     padding-left: 20%;
-
+    justify-content: center;
+    padding-bottom: 3%;
 }
 
 #part1 {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    padding-right: 3%;
+
+   
 }
 
 #part1, img {
-    width: 100%;
+    width: 85%;
+    padding-bottom: 5%;
 }
 
 #split {
     display: flex;
     flex-direction: column;
-
+    gap: 5%;
+    
+    
 }
 
 #part2 {
+    display: flex;
+    
 
+   
+}
+
+#part2 img {
+    width: 45%;
+    margin-right: 3%;
 }
 
 #part3 {
+    display: flex;
 
+    
 }
 
+#part3 img {
+    width: 45%;
+    margin-right: 3%;
+}
+
+/* SCROLL */
 .updown {
     display: flex;
     flex-direction: column;
     padding: 6%;
-    width: 45%;
+    width: 20%;
+
+    background-color: orange;
 }
 
+.eventpic {
+    width: 25%;
+    height: auto;
+}
+
+.group1 {
+    display: flex;
+}
+
+.chunk {
+    display: flex;
+    flex-direction: column;
+}
+
+.lineup {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SCREEN 2 */
 #day1 {
     display: flex;
     flex-direction: column;
@@ -130,18 +192,26 @@ h1 {
     background-color: aqua;
 }
 
-.group1 {
-    display: flex;
-}
-
-#event1 {
-    display: flex;
-}
-
 #day2 {
     display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 15%;
+    height: 100vh;
+
+    background-color: bisque;
 }
 
 #day3{
     display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 15%;
+    height: 100vh;
+
+    background-color: yellowgreen;
 }
