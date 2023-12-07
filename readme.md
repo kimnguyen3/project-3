@@ -28,7 +28,9 @@ Fonts used (Adobe)
 <br>
 
 # Acknowledgements
-(n/a for now)
+overflow: https://www.w3schools.com/css/css_overflow.asp
+border radius: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+
 
 # Wireframe
 <img src="img/wireframe.png">
