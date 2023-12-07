@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-size: 100%;
 
-    /* overflow-y: scroll;
-    scroll-behavior: smooth; */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -21,42 +21,46 @@ nav {
     display: flex;
     flex-direction: column;
     width: 13%;
-    height: 400vh;
+    height: 405vh;
 
     background-color: #8A191F;
 
     position: absolute;
 }
 
-a img {
-    width: 100%;
-    position: absolute;
-    top: 2.5%;
-    left: 38.7%;
+#logo {
+    width: 13%;
+    position: fixed;
+    top: 9%;
+    left: 5%;
 }
 
 #about {
-    top: 9%;
-    left: 57%;
-    width: 65%;
+    top: 34%;
+    left: 6.9%;
+    width: 9%;
+    position: fixed;
 }
 
 #events {
-    top: 12%;
-    left: 64%;
-    width: 65%;
+    top: 46%;
+    left: 8%;
+    width: 9.1%;
+    position: fixed;
 }
 
 #merch {
-    top: 15%;
-    left: 60%;
-    width: 64%;
+    top: 58%;
+    left: 7.6%;
+    width: 8.5%;
+    position: fixed;
 }
 
 #connect {
-    top: 18%;
-    left: 58%;
-    width: 85%;
+    top: 70%;
+    left: 7.3%;
+    width: 11.5%;
+    position: fixed;
 }
 
 /* BODY */
@@ -82,22 +86,27 @@ p {
     line-height: 175%;
 }
 
+a {
+    text-decoration: none;
+}
+
+.link:hover {
+    opacity: 0.5;
+}
+
 #main {
     display: flex;
     flex-direction: column;
     margin-top: 5%;
-    padding-bottom: 5%;
     margin-right: 5%;
     margin-left: 10%;
     flex-wrap: wrap;
-   
-    /* background-color: green; */
 }
 
 /* SCREEN 1 */
 #landing {
     display: flex;
-    padding-left: 20%;
+    padding-left: 24%;
     justify-content: center;
     padding-bottom: 3%;
 }
@@ -105,13 +114,10 @@ p {
 #part1 {
     display: flex;
     flex-direction: column;
-    padding-right: 3%;
-
-   
 }
 
 #part1, img {
-    width: 85%;
+    width: 70%;
     padding-bottom: 5%;
 }
 
@@ -119,31 +125,24 @@ p {
     display: flex;
     flex-direction: column;
     gap: 5%;
-    
-    
 }
 
 #part2 {
     display: flex;
-    
-
-   
 }
 
 #part2 img {
     width: 45%;
-    margin-right: 3%;
+    margin-right: 5%;
 }
 
 #part3 {
     display: flex;
-
-    
 }
 
 #part3 img {
-    width: 45%;
-    margin-right: 3%;
+    width: 52%;
+    margin-right: 5%;
 }
 
 /* SCROLL */
@@ -151,14 +150,39 @@ p {
     display: flex;
     flex-direction: column;
     padding: 6%;
-    width: 20%;
+    width: 70%;
+    gap: 10%;
+}
 
-    background-color: orange;
+.updown2 {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    width: 55%;
+    gap: 10%;
+}
+
+.updown3 {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    width: 55%;
+    gap: 10%;
 }
 
 .eventpic {
-    width: 25%;
-    height: auto;
+    width: auto;
+    height: 30vh;
+}
+
+.eventpic2 {
+    width: auto;
+    height: 35vh;
+}
+
+.eventpic3 {
+    width: auto;
+    height: 25vh;
 }
 
 .group1 {
@@ -168,15 +192,27 @@ p {
 .chunk {
     display: flex;
     flex-direction: column;
+    
 }
 
 .lineup {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.lineup2 {
+    display: flex;
+}
+
+.lineupday2 {
     display: flex;
 }
 
 .text {
     display: flex;
     flex-direction: column;
+    padding-left: 3%;
+    width: 70%;
 }
 
 /* SCREEN 2 */
@@ -186,10 +222,8 @@ p {
     padding-top: 5%;
     padding-bottom: 5%;
     margin-right: 5%;
-    margin-left: 15%;
+    margin-left: 10%;
     height: 100vh;
-
-    background-color: aqua;
 }
 
 #day2 {
@@ -198,10 +232,8 @@ p {
     padding-top: 5%;
     padding-bottom: 5%;
     margin-right: 5%;
-    margin-left: 15%;
+    margin-left: 10%;
     height: 100vh;
-
-    background-color: bisque;
 }
 
 #day3{
@@ -210,8 +242,6 @@ p {
     padding-top: 5%;
     padding-bottom: 5%;
     margin-right: 5%;
-    margin-left: 15%;
+    margin-left: 10%;
     height: 100vh;
-
-    background-color: yellowgreen;
 }
