@@ -8,6 +8,7 @@
 body {
     display: flex;
     background-color: #EFEEE6;
+
     position: relative;
 }
 
@@ -15,43 +16,63 @@ nav {
     padding-left: 12%;
     display: flex;
     flex-direction: column;
-    width: 15%;
-    height: 100vh;
+    width: 13%;
+    height: 405vh;
 
     background-color: #8A191F;
 
-    position: relative;
+    position: absolute;
 }
 
-a img {
-    width: 100%;
-    position: absolute;
-    top: 10%;
-    left: 38.7%;
+#logo {
+    width: 13%;
+    position: fixed;
+    top: 9%;
+    left: 5%;
 }
 
 #about {
-    top: 35%;
-    left: 57%;
-    width: 65%;
+    top: 34%;
+    left: 6.9%;
+    width: 9%;
+    position: fixed;
+}
+
+#about:hover {
+    transform: skew(-10deg);
 }
 
 #events {
-    top: 47%;
-    left: 64%;
-    width: 65%;
+    top: 46%;
+    left: 8%;
+    width: 9.1%;
+    position: fixed;
+}
+
+#events:hover {
+    transform: skew(-10deg);
 }
 
 #merch {
-    top: 59%;
-    left: 60%;
-    width: 64%;
+    top: 58%;
+    left: 7.6%;
+    width: 8.5%;
+    position: fixed;
+}
+
+#merch:hover {
+    transform: skew(-10deg);
 }
 
 #connect {
-    top: 71%;
-    left: 58%;
-    width: 85%;
+    top: 70%;
+    left: 7.3%;
+    width: 11.5%;
+    position: fixed;
+}
+
+#connect:hover {
+    transform: skew(-10deg);
 }
 
 /* BODY */
@@ -83,6 +104,12 @@ p {
     box-shadow: 2px 3px 6px #373B3B;
     position: relative;
     left: 25%;
+
+    border: 5px solid transparent;
+}
+
+p:hover {
+    border: 5px solid #8A191F;
 }
 
 #main {
@@ -90,7 +117,7 @@ p {
     flex-direction: column;
     margin-top: 5%;
     margin-right: 5%;
-    margin-left: 13%;
+    margin-left: 25%;
     flex-wrap: wrap;
 }
 
@@ -105,6 +132,10 @@ p {
     margin-right: 2%;
     text-transform: lowercase;
     font-size: 1.7em;
+}
+
+#yourcart:hover {
+    text-decoration: underline;
 }
 
 #cart {
@@ -129,4 +160,32 @@ p {
     height: 40vh;
     width: auto;
     margin-bottom: 10%;
+}
+
+.overlay {
+    width: 17.5%;
+    height: 46.5%;
+    top: 31.5%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    padding: 3%;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay h5 {
+    font-family: Futura, sans-serif;
+    color: #EFEEE6;
+}
+
+.overlay h3 {
+    color: #C8D174;
 }

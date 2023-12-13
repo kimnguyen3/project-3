@@ -42,11 +42,19 @@ nav {
     position: fixed;
 }
 
+#about:hover {
+    transform: skew(-10deg);
+}
+
 #events {
     top: 46%;
     left: 8%;
     width: 9.1%;
     position: fixed;
+}
+
+#events:hover {
+    transform: skew(-10deg);
 }
 
 #merch {
@@ -56,11 +64,19 @@ nav {
     position: fixed;
 }
 
+#merch:hover {
+    transform: skew(-10deg);
+}
+
 #connect {
     top: 70%;
     left: 7.3%;
     width: 11.5%;
     position: fixed;
+}
+
+#connect:hover {
+    transform: skew(-10deg);
 }
 
 /* BODY */
