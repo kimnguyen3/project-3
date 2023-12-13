@@ -81,8 +81,29 @@ h1 {
     color: #8A191F;
     text-align: right;
     font-size: 6em;
-    padding-left: 58%;
+    padding-left: 62%;
     width: 70%;
+}
+
+h2 {
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+    color: #373B3B;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: Futura, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    color: #373B3B;
+    text-align: justify;
+    line-height: 170%;
 }
 
 #main {
@@ -92,4 +113,49 @@ h1 {
     margin-right: 5%;
     margin-left: 25%;
     flex-wrap: wrap;
+}
+
+#chunk {
+    display: flex;
+    margin-top: 3%;
+}
+
+#socials {
+    width: 30%;
+    margin-top: 3%;
+}
+
+#socials img {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.pair {
+    display: flex;
+    padding-bottom: 15%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #373B3B;
+}
+
+#sponsor {
+    display: flex;
+    margin-left: 15%;
+}
+
+#group {
+    margin-right: 3%;
+    width: 45%;
+}
+
+#group img {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#text {
+    width: 50%;
 }
