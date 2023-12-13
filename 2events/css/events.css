@@ -97,10 +97,21 @@ h3 {
     color: #373B3B;
 }
 
+h4 {
+    font-family: Futura, sans-serif;
+    font-size: 1.5em;
+    font-weight: 75;
+    color: #8A191F;
+}
+
 p {
     font-family: Futura, sans-serif;
     color: #373B3B;
     line-height: 175%;
+}
+
+.bodytext {
+    text-align: justify;
 }
 
 a {

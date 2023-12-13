@@ -4,3 +4,92 @@
     box-sizing: border-box;
     font-size: 100%;
 }
+
+body {
+    display: flex;
+    background-color: #EFEEE6;
+
+    position: relative;
+}
+
+nav {
+    padding-left: 12%;
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    height: 405vh;
+
+    background-color: #8A191F;
+
+    position: absolute;
+}
+
+#logo {
+    width: 13%;
+    position: fixed;
+    top: 9%;
+    left: 5%;
+}
+
+#about {
+    top: 34%;
+    left: 6.9%;
+    width: 9%;
+    position: fixed;
+}
+
+#about:hover {
+    transform: skew(-10deg);
+}
+
+#events {
+    top: 46%;
+    left: 8%;
+    width: 9.1%;
+    position: fixed;
+}
+
+#events:hover {
+    transform: skew(-10deg);
+}
+
+#merch {
+    top: 58%;
+    left: 7.6%;
+    width: 8.5%;
+    position: fixed;
+}
+
+#merch:hover {
+    transform: skew(-10deg);
+}
+
+#connect {
+    top: 70%;
+    left: 7.3%;
+    width: 11.5%;
+    position: fixed;
+}
+
+#connect:hover {
+    transform: skew(-10deg);
+}
+
+/* BODY */
+h1 {
+    font-family: Didot, serif;
+    color: #8A191F;
+    text-align: right;
+    font-size: 6em;
+    padding-left: 58%;
+    width: 70%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 25%;
+    flex-wrap: wrap;
+}
