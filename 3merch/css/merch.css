@@ -175,6 +175,7 @@ p:hover {
     opacity: 0;
     transition: 0.4s;
     padding: 3%;
+    border-radius: 10px;
 }
 
 .overlay:hover {
