@@ -39,12 +39,20 @@ nav {
     width: 65%;
 }
 
+#about:hover {
+    transform: skew(-10deg);
+}
+
 #events {
     display: flex;
     position: relative;
     top: 350px;
     right: 36%;
     width: 65%;
+}
+
+#events:hover {
+    transform: skew(-10deg);
 }
 
 #merch {
@@ -55,10 +63,18 @@ nav {
     width: 64%;
 }
 
+#merch:hover {
+    transform: skew(-10deg);
+}
+
 #connect {
     display: flex;
     position: relative;
     top: 450px;
     right: 42%;
     width: 85%;
+}
+
+#connect:hover {
+    transform: skew(-10deg);
 }
