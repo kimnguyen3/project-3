@@ -1,7 +1,6 @@
 # Wear Down
-by Kimberly Nguyen
-
-November 2023
+by Kimberly Nguyen,
+December 2023
 
 # Project Overview
 Fashion sustainability is an issue at the current forefront of the industry. The fashion industry is one of the largest industrial polluters due to its excessive amounts of textile waste along with its unsustainable water usage and contamination. The industry is also infamous for its constant unfair and exploitative labor practices. 
@@ -15,9 +14,11 @@ Consumer profits are what drive large corporations to continue these practices, 
 # Technical Overview
 This site was coded in HTML and CSS using Visual Studio Code, and utilized a Github server.
 
-The Wear Down logo was created using Adobe Illustrator and the wireframe was created using Adobe XD (linked down below).
+The Wear Down logo, navigation text, tickets, and various icons were created using Adobe Illustrator.
 
-Background images were edited using Adobe Photoshop
+The wireframe was created using Adobe XD (linked down below).
+
+Images were edited using Adobe Photoshop
 
 Styling of the site was inspired by Vogue branding along with themes of retrofuturism.
 
@@ -29,7 +30,10 @@ Fonts used (Adobe)
 
 # Acknowledgements
 overflow: https://www.w3schools.com/css/css_overflow.asp
+
 border radius: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+
+hover overlay: https://youtu.be/hr4JiDr7Aec?si=AdYeGDb-tyzLYzo0
 
 
 # Wireframe
