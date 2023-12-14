@@ -17,7 +17,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 13%;
-    height: 405vh;
+    height: 100vh;
 
     background-color: #8A191F;
 
@@ -155,4 +155,144 @@ p {
     line-height: 175%;
     text-align: justify;
     text-indent: 5%;
+}
+
+@media screen and (max-width: 1120px) {
+    * {
+        font-size: 98%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    nav {
+        padding-left: 10%;
+        width: 15%;
+        height: 125vh;
+    }
+    
+    #logo {
+        width: 17%;
+        position: fixed;
+        top: 8%;
+        left: 4.6%;
+    }
+    
+    #about {
+        top: 25%;
+        left: 8.4%;
+        width: 10%;
+        position: fixed;
+    }
+    
+    #events {
+        top: 33%;
+        left: 9.3%;
+        width: 10.5%;
+        position: fixed;
+    }
+    
+    #merch {
+        top: 42%;
+        left: 8.6%;
+        width: 10%;
+        position: fixed;
+    }
+    
+    #connect {
+        top: 51%;
+        left: 8.1%;
+        width: 14%;
+        position: fixed;
+    }
+
+    #pic {
+        width: 45%;
+        height: auto;
+    }
+
+    #tix {
+        width: 20%;
+        padding: 1%;
+        
+        position: relative;
+        left: 50%;
+        top: 0%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    nav {
+        padding-left: 10%;
+        width: 15%;
+        height: 125vh;
+    }
+    
+    #logo {
+        width: 20%;
+        position: fixed;
+        top: 6%;
+        left: 3%;
+    }
+    
+    #about {
+        top: 17%;
+        left: 7%;
+        width: 12%;
+        position: fixed;
+    }
+    
+    #events {
+        top: 22%;
+        left: 8%;
+        width: 12.5%;
+        position: fixed;
+    }
+    
+    #merch {
+        top: 27%;
+        left: 7.05%;
+        width: 12.5%;
+        position: fixed;
+    }
+    
+    #connect {
+        top: 32%;
+        left: 6.5%;
+        width: 17%;
+        position: fixed;
+    }
+
+    h1 {
+        font-family: Didot, serif;
+        color: #8A191F;
+        text-align: center;
+        font-size: 5.5em;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    
+    #main {
+        padding-right: 8%;
+        margin-left: 22%;
+    }
+
+    #section {
+        padding-top: 3%;
+    }
+    
+    #pic {
+        display: none;
+    }
+
+    #tix {
+        width: 30%;
+        padding: 1%;
+        
+        position: relative;
+        left: 35%;
+        top: 0%;
+    }
+
 }
